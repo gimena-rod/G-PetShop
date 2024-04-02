@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #fff; 
+    padding-top: 85px;
+}
+
+.header{
+    background-color: rgb(237, 242, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    box-shadow: 1px -1px 13px 2px rgb(156, 156, 156);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header .logo{
+ cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+}
+
+.header .nav-link{
+    list-style: none;
+    box-shadow: 10px 10px #0000;
+}
+
+.header .nav-link li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-link li a{
+    font-size: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.header nav .nav-link li a:hover{
+    color: #989898;
+}
+
+.header .nav-profile{
+    align-items: end;
+}
+
+main .wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 25px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 85px;
+    padding: 20px 25%;
+    margin: 50px 0px;
+}
+
+.category-img {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-img:hover{
+    transform: scale(1.2);
+}
+
+.border{
+    border: 1px solid #ddd;
+}
+
+.border:hover{
+    border: 1px solid #817f7f;
+}
+.border-circle {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.flex-center {
+    display:flex;
+    justify-content: center;
+}
+
+.inline-block {
+    display: inline-block
+
+}
+
+.card {
+    flex: 50%;
+    margin: 20px 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    border-color: #817f7f;
+
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.card-body {
+    font-size: 15px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.card-footer {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    border: .5px solid #989898;
+}
+
+.btn:hover {
+    background-color: #888686;
+    cursor: pointer;
+}
+
+.card-img img{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.footer {
+    background-color: rgb(237, 242, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding: 5px 10%;
+}
+
+.logo-footer img{
+    height: 150px;
+    width: auto;
+}
+
+.footer-title {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: #000;
+    padding: 4px;
+    text-align: center;
+}
+
+.footer-content :hover{
+    color: #888686;
+}
